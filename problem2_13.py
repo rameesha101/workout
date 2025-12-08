@@ -1,6 +1,4 @@
-#Problem 13: Write a function lensort to sort a list of strings based on length.
-'python', 'perl', 'java', 'c', 'haskell', 'ruby'])
-['c', 'perl', 'java', 'ruby', 'python', 'haskell']
+#Problem 13: Write a function lensort(list) that takes a list of strings and returns a list sorted by the length of the strings.
 
 def lensort(list):
     return sorted(list, key=len)
